@@ -7,9 +7,11 @@
 </ol>
 <ol>
 	<h4>Building Instruction</h4>
-	Steps
-	<li>git clone 'https://github.com/UbaidurRehman1/FileExtractor.git' </li>
-	<li>mvn clean compile assembly:single</li>
+	Do the following steps
+	<li><strong>git clone 'https://github.com/UbaidurRehman1/FileExtractor.git'</strong></li>
+	<li><strong>mvn clean compile assembly:single</strong></li>
+	<li>after success full build copy the FileExtractor-1-jar-with-dependencies.jar to the folder where .tgz files exists</li>
+	<li><strong>java -jar FileExtractor-1-jar-with-dependencies.jar</strong> to run the jar</li>
 </ol>
 <ol>
 	<h4>Requirements</h4>
